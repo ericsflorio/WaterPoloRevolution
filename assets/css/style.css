@@ -671,7 +671,7 @@ textarea::-ms-input-placeholder
     margin-bottom: 20px;
 }
 .head_title p {
-    max-width: 55%;
+    max-width: 80%;
     margin: 10px auto;
     padding-bottom: 20px;
 }
