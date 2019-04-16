@@ -180,8 +180,8 @@ h6 {
     margin-bottom: .9rem;
 }
 p {
-    line-height: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 18px;
+    line-height: 1.4;
 }
 p:last-child {
     margin-bottom: 0px;
@@ -1505,7 +1505,9 @@ xkeyframes
 
 /*For portfolio Section*/
 .portfolio{
-    background: url(../images/bg.png) no-repeat top center fixed;
+    /*! background: url(../images/bg.png) no-repeat top center fixed; */
+    /*! background-image: linear-gradient(#d7dbec 0%, #fff 14%, #fff 86%, #d7dbec 100%); */
+    background-color: whitesmoke;
     background-size:cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -1698,7 +1700,7 @@ xkeyframes
 	-webkit-transition: opacity .5s, background-color .5s;
 }
 .scrollup:hover {
-	background: #82ca9c;
+	background: #00dcffcc;
 	opacity: 1;
 }
 .scrollup i {

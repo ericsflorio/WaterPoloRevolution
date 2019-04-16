@@ -27,7 +27,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 /* Portrait tablets and small desktops */
 @media  (max-width: 991px) {
-    html {
+
+	.contact .home-contact .input-group{
+		padding: 0 18%;
+	}
+	.social-row{
+		padding: 0 24%;
+	}
+	html {
         font-size: 80%;
     }
 	.home-content h1 {
@@ -51,7 +58,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  
+
+	.contact .home-contact .input-group{
+		padding: 0 15%;
+	}
+	.social-row{
+		padding: 0 24%;
+	}
 	.home-wrapper{
 		padding: 60px 0px;
 	}
@@ -93,6 +106,16 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+
+	.home{
+		background-position-x: 42%;
+	}
+	.contact .home-contact .input-group{
+		padding: 0 20px;
+	}
+	.social-row{
+		padding: 0 7%;
+	}
 	.home-wrapper{
 		padding: 40px 0px;
 	}
