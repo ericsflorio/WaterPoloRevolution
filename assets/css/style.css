@@ -624,7 +624,7 @@ textarea::-ms-input-placeholder
     position: relative;
     z-index: 2;
     float: right;
-    width: 72%;
+    /*! width: 72%; */
     margin-bottom: 0;
     height: 60px;
 

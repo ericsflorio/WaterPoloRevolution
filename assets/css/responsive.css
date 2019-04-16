@@ -12,6 +12,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
     .home-content h1 {
     font-size: 44px;
+    /*! margin-bottom: 60px; */
 	}
 	.signup-process .signup-details h5 {
     font-size: 21px;
@@ -31,6 +32,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
 	.home-content h1 {
     font-size: 38px;
+    padding-left: 30%;
+    /*! margin-bottom: 70px; */
 	}
    .heading-content h1 {
     font-size: 45px;
@@ -48,7 +51,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    html {
+  
+	.home-wrapper{
+		padding: 60px 0px;
+	}
+	.home-content h1 {
+    font-size: 38px;
+    padding-left: 23%;
+	}
+	.logo {
+        padding-left: 50%;  
+	html {
         font-size: 70%;
     }
 	.home-content h1 {
@@ -80,11 +93,19 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-    html {
+	.home-wrapper{
+		padding: 40px 0px;
+	}
+	.logo {
+        padding-left: 180px;
+    }  
+	html {
         font-size: 60%;
     }
 	.home-content h1 {
-    font-size:28px;
+    font-size:30px;
+		margin: 14px 0 30px 0;
+			padding-left: 1%;
 	}
    .navbar-default .collapse .login a {
     margin-left: 0;
@@ -139,7 +160,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 @media (max-width: 320px) {
 
-
+.logo {
+        padding-left: 50px;
+	}
     html {
         font-size: 50%;
     }
